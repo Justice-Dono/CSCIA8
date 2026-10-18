@@ -53,25 +53,18 @@ li {
 
 header {
   margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-main,
-header,
-nav,
-article,
-aside,
-footer,
-section {
-  background-color: #00ff0080;
+body > * {
+  background-color: red;
   padding: 1%;
 }
 
 h1 {
+  flex: 5;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
 }
 
 header img {
