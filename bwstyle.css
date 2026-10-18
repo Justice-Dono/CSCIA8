@@ -112,10 +112,10 @@ nav a, nav span {
 
 /* || main layout */
 
-/* original main style*/
+/* original main style
 main {
   display: flex;
-} 
+} */
  
 
 article, section {
@@ -145,6 +145,7 @@ footer {
 /* HK additions */
 
 main {
+  display:flex;
   flex: 3;
 }
 
