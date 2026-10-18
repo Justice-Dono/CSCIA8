@@ -109,17 +109,19 @@ nav a:focus {
 
 /* || main layout */
 
-main {
+/*main {
   display: flex;
   gap: 10px;
-}
+}*/
 
-article {
+article, section {
   flex: 4;
 }
 
 aside {
   flex: 1;
+  margin-left: 10 px;
+  padding: 1%
 }
 
 aside a {
