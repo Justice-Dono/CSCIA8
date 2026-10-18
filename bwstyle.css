@@ -62,6 +62,11 @@ body > * {
   padding: 1%;
 }
 
+main, header, nav, article, aside, footer, section {
+  background-color: rgba(0, 255, 0, 0.5);
+  padding: 1%;
+} 
+
 h1 {
   flex: 5;
   text-transform: uppercase;
@@ -124,6 +129,11 @@ aside img {
 footer {
   margin-top: 10px;
 }
+
+main{
+  flex: 3;
+}
+
 .flex-container {
   background-color: rgba(0, 255, 0, 0.5);
   padding: 1%;
