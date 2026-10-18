@@ -15,7 +15,7 @@ html {
 
 body {
   width: 70%;
-  min-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -145,6 +145,7 @@ footer {
 /* HK additions */
 
 main {
+  display: flex;
   flex: 3;
 }
 
