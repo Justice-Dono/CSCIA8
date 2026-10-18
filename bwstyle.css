@@ -68,7 +68,9 @@ h1 {
 }
 
 header img {
+  display: block;
   height: 60px;
+  padding-top: 20.15px;
 }
 
 nav ul {
@@ -122,3 +124,9 @@ aside img {
 footer {
   margin-top: 10px;
 }
+.flex-container {
+  background-color: rgba(0, 255, 0, 0.5);
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+} 
