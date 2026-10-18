@@ -145,7 +145,6 @@ footer {
 /* HK additions */
 
 main {
-  display: flex;
   flex: 3;
 }
 
