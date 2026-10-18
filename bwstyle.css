@@ -113,10 +113,10 @@ nav a, nav span {
 
 /* || main layout */
 
-main {
+/*main {
   display: flex;
   gap: 10px;
-}
+}*/
 
 article, section {
   flex: 4;
