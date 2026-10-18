@@ -81,7 +81,7 @@ header img {
 }
 
 nav {
-  height: 50px;
+  /*height: 50px;*/
   flex: 100%;
   display: flex;
 }
@@ -94,13 +94,13 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: flex;
   text-align: center;
   flex: 1;
 }
 
 nav a, nav span {
-  display: inline-block;
+  display: flex;
   font-size: 2rem;
   height: 3rem;
   line-height: 1.7;
@@ -145,7 +145,6 @@ footer {
 /* HK additions */
 
 main {
-  display: flex;
   flex: 3;
 }
 
