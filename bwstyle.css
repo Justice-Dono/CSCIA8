@@ -109,10 +109,10 @@ nav a:focus {
 
 /* || main layout */
 
-/*main {
+main {
   display: flex;
   gap: 10px;
-}*/
+}
 
 article, section {
   flex: 4;
